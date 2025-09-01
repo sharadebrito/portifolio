@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(to right, #ff6b81, #4cd4a9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: #feb5ca;
+  width: 40%;
+  height: 60px;
+  border-radius: 12px;
+}
+
+button {
+  border: none;
+  background-color: #feb5ca;
+  color: #444444;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Comic Neue", cursive;
+  font-style: normal;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #df3e56;
+  border-bottom: 2px solid #ff6b81;
+}
+
+.buttons a {
+  text-decoration: none; /* tira o sublinhado */
+  color: inherit;        /* usa a cor do botão */
+  display: inline-block; /* garante que o botão se comporte normal */
+}

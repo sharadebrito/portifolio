@@ -1,0 +1,44 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre {
+  width: 60%;
+  background-color: #fbe4ec;
+  margin-top: 100px;
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  line-height: 2; /* espaçamento entre linhas */
+  color: #444444;
+  margin-bottom: 100px;
+}
+
+.sobre h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #fb6d82;
+}
+
+.sobre p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+}
+
+.text {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#sobre {
+  scroll-margin-top: 100px; /* ajuste o valor conforme a altura do seu header */
+    margin-bottom: 80px;
+}
