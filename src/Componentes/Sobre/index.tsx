@@ -15,7 +15,7 @@ export function Sobre() {
             de programação e desenvolvimento de sistemas.
           </p>
           <p>
-            🚀 Conhecimentos em <b> HTML, CSS, JavaScript, React e Python.</b>{" "}
+            🚀 Conhecimentos em <b> HTML, CSS, JavaScript, TypeScript, React e Python.</b>{" "}
           </p>
           <p>🧪 Em constante aprimoramento em QA | testes de software.</p>
         </div>
