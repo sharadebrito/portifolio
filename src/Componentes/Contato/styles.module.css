@@ -56,19 +56,38 @@
   transform: scale(1.2);
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+/* Tablet (até 900px) → 2 por linha */
+@media (max-width: 900px) {
+  .contactItem {
+    width: 40%;
+    max-width: 250px;
+  }
+
   .contactItems {
-    gap: 40px;
+    gap: 30px;
+  }
+
+  .contatos h1 {
+    margin-bottom: 50px;
+  }
+}
+
+/* Celular (até 480px) → 1 por linha */
+@media (max-width: 480px) {
+  .contactItems {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
   .contactItem {
-    width: 150px;
+    width: 90%;
+    max-width: 300px;
     padding: 20px 15px;
   }
 
   .contatos h1 {
-    font-size: 2rem;
-    margin-bottom: 40px;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
   }
 }

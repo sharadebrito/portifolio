@@ -11,7 +11,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .projetos:hover {
@@ -26,7 +25,6 @@
   color: #e75480;
   margin-bottom: 10px;
   text-align: center;
-  
 }
 
 .projetos p {
@@ -48,11 +46,11 @@
 }
 
 .btnCard {
-   margin-top: 10px;
+  margin-top: 10px;
   padding: 10px 18px;
   border: none;
   border-radius: 8px;
-  background-color: #FEB5CA;
+  background-color: #feb5ca;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -61,4 +59,43 @@
 
 .btnCard:hover {
   color: #222222;
+}
+
+/* -------- Responsividade -------- */
+@media (max-width: 1024px) {
+  .projetos {
+    width: 240px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projetos {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .projetos p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .projetos {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .projetos h2 {
+    font-size: 1.1rem;
+  }
+
+  .projetos p {
+    font-size: 0.85rem;
+  }
+
+  .btnCard {
+    width: 100%;
+  }
 }

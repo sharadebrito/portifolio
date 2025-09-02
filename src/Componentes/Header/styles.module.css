@@ -13,11 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   background-color: #feb5ca;
-  width: 40%;
+  width: 50%;
   height: 60px;
   border-radius: 12px;
+  flex-wrap: wrap;
 }
 
 button {
@@ -29,6 +30,7 @@ button {
   font-family: "Comic Neue", cursive;
   font-style: normal;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
 button:hover {
@@ -37,7 +39,38 @@ button:hover {
 }
 
 .buttons a {
-  text-decoration: none; /* tira o sublinhado */
-  color: inherit;        /* usa a cor do botão */
-  display: inline-block; /* garante que o botão se comporte normal */
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .buttons {
+    width: 70%;
+    gap: 25px;
+    height: auto;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
+
+/* Celular */
+@media (max-width: 480px) {
+  .buttons {
+    flex-direction: column;
+    width: 90%;
+    gap: 15px;
+    padding: 12px;
+    height: auto;
+  }
+
+  button {
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+  }
 }
