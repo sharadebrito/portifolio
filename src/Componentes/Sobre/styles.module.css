@@ -8,21 +8,19 @@
   width: 60%;
   background-color: #fbe4ec;
   margin-top: 100px;
-  padding: 20px;
+  margin-bottom: 100px;
+  padding: 30px 40px;
   gap: 10px;
   text-align: center;
   border-radius: 12px;
-  padding: 30px 40px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   line-height: 2;
   color: #444444;
-  margin-bottom: 100px;
 }
 
 .sobre h1 {
-  margin-bottom: 30px;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
   font-size: 30px;
   color: #fb6d82;
 }
@@ -41,4 +39,54 @@
 #sobre {
   scroll-margin-top: 100px;
   margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .sobre {
+    width: 75%;
+    padding: 25px 30px;
+  }
+
+  .sobre h1 {
+    font-size: 26px;
+  }
+
+  .sobre p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre {
+    width: 85%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+  }
+
+  .sobre h1 {
+    font-size: 24px;
+  }
+
+  .sobre p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre {
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+  }
+
+  .sobre h1 {
+    font-size: 20px;
+  }
+
+  .sobre p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
 }

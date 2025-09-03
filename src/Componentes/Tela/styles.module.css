@@ -1,12 +1,13 @@
 .tela {
   max-width: 100vw;
-  height: 100vw;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Comic Neue", cursive;
   font-weight: 300;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 html {
@@ -22,4 +23,24 @@ hr {
 
 section {
   padding: 30px 10px;
+}
+
+@media (max-width: 768px) {
+  hr {
+    width: 80%;
+  }
+
+  section {
+    padding: 20px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  hr {
+    width: 90%;
+  }
+
+  section {
+    padding: 15px 6px;
+  }
 }

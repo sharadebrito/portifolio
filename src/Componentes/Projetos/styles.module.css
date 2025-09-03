@@ -41,8 +41,7 @@
   justify-content: center;
   width: 100%;
   height: 80px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .btnCard {
@@ -61,7 +60,6 @@
   color: #222222;
 }
 
-/* -------- Responsividade -------- */
 @media (max-width: 1024px) {
   .projetos {
     width: 240px;
@@ -93,9 +91,12 @@
 
   .projetos p {
     font-size: 0.85rem;
+    text-align: left;
   }
 
   .btnCard {
     width: 100%;
+    padding: 12px;
+    font-size: 0.9rem;
   }
 }
