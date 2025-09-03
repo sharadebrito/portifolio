@@ -5,7 +5,7 @@ Repositório criado para apresentar meus principais projetos de **Desenvolviment
 ##### ⚙️ Tecnologias utilizadas  
 - ⚛️ **React**  
 - ⚡ **Vite**  
-- 🟨 **JavaScript**  
+- 🔷 **TypeScript** 
 - 🎨 **CSS**  
 - 🌐 **HTML**  
 - 🧪 **Jest / Testing Library**  
@@ -19,7 +19,7 @@ Repository created to showcase my main **Front-End Development and QA** projects
 ##### ⚙️ Technologies used  
 - ⚛️ **React**  
 - ⚡ **Vite**  
-- 🟨 **JavaScript**  
+- 🔷 **TypeScript** 
 - 🎨 **CSS**  
 - 🌐 **HTML**  
 - 🧪 **Jest / Testing Library** 
